@@ -1,0 +1,40 @@
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 20px;
+      max-width: 320px;
+    }
+    .Login{
+        display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: aqua;
+  
+    }
+.mail{ 
+    font-weight: bold;
+    margin-right:45px;
+}
+.pass{
+    font-weight: bold;
+    margin-right:10px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+    font-weight: bold;
+    color: black;
+    font-family: "Open Sans Regular"
+    
+    
+}
+.sub:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+}
